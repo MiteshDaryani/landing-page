@@ -10,15 +10,29 @@
 
 .header{
     background-color: #1F2937;
+    height: 400px;
    
 }
 
-h1{
+.headerlogo{
     font-size: 24px;
     color: #f9faf8;
+    margin-left: 80px;
 }
 
-.header,h3{
+.links{
+    margin-right: 80px;
+}
+
+#aw{
+    width: 300px;
+}
+
+.headerp{
+    width: 380px;
+}
+
+.header,#aw{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
@@ -27,6 +41,17 @@ h1{
 .header,.links,.headerp{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#placeholder{
+    background-color: #485361;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+    margin-top: 40px;
 }
 
 /*.info{
@@ -67,4 +92,34 @@ h1{
 
 .footer{
     background-color: #3882f6;
+}
+
+
+/*Alignment*/
+
+/*.header{
+    display: flex;
+    flex-direction: column;
+}*/
+
+.headerloli{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerplte{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.text{
+    height:420px;
+    width: 210px;
+    margin-left: 80px;
+    margin-top: 40px;
 }
