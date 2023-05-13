@@ -98,6 +98,13 @@
 
 .quote{
     background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 40px;
     
 }
 
@@ -106,6 +113,18 @@
     font-style: italic;
     color: #1F2937;
     font-weight: 300;
+}
+
+.thor{
+    padding-left: 700px;
+    padding-bottom: 50px;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+.quote p{
+    width: 730px;
+    /*text-align: center;*/
 }
 
 .footer{
