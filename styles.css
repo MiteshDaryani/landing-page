@@ -10,6 +10,14 @@ body{
 }
 
 
+.text button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: #e5e7eb;
+}
+
 
 
 
@@ -134,7 +142,24 @@ body{
 
 .footer{
     background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
 }
+
+
+.footer button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    margin: 50px;
+    margin-top: 90px;
+   
+}
+
 
 
 /*Alignment*/
@@ -164,4 +189,15 @@ body{
     width: 210px;
     margin-left: 80px;
     margin-top: 40px;
+}
+
+.footer p{
+    width: 1000px;
+
+}
+
+.footerpara{
+    padding-left: 40px;
+    width: 900px;
+
 }
